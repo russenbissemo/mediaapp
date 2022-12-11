@@ -14,21 +14,60 @@
 
         .left{
             flex:1;
-            background: url(../images/login/pexels-cottonbro-studio-5158956.jpg) center;
+            background: linear-gradient(rgba(39,11,96,0.5) ,rgba(39,11,96,0.5)),url(../images/login/image1.jpg) center;
             background-size: cover;
-            h1{}
+            padding:50px;
+            display: flex;
+            flex-direction: column;
+            gap:30px;
+            color: white;
+            h1{
+                font-size: 100px;
+                line-height: 100px;
+            }
             p{}
-            span{}
-            button{}
+            span{
+                font-size: 14px;
+            }
+            button{
+                width:50%;
+                padding:10px;
+                background-color: white;
+                font-weight: bold;
+                cursor: pointer;
+
+            }
         }
         .right{
+            background-color: white;
             flex:1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap:50px;
             h1{
+                color: #555;
+        
             
             }
             form{
-                input{}
-                button{}
+                display: flex;
+                flex-direction: column;
+                gap:30px;
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgrey;
+                }
+                button{
+                    width:50%;
+                    padding:10px;
+                    border:none;
+                    background-color: #938eef;
+                    color:white;
+                    font-weight: Bold;
+
+                }
             }
         }
     }
